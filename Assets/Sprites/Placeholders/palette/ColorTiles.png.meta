@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 889762414f6bbf21193319eae0616e39
+guid: 12d9f4513eb3436928d5c3159265ad7b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -467307283419413426
-    second: Player_Idle_0
+      213: 5970135517838781546
+    second: ColorTiles_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Idle_0
+      name: ColorTiles_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 29
-        height: 35
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4445da608ac389f0800000000000000
-      internalID: -467307283419413426
+      spriteID: a6c29b15f9e2ad250800000000000000
+      internalID: 5970135517838781546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColorTiles_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c11b31531b31f0bb186d4a710f61a7
+      internalID: 1908375546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColorTiles_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca2cd1e5d5b4d37d8b3d136139e64ea
+      internalID: -355819193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColorTiles_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c4ccea01e30687287af22f757d9bb6
+      internalID: -1184732824
       vertices: []
       indices: 
       edges: []
@@ -138,7 +204,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fa7dac01780845c2b86fe348c35e0dfd
     internalID: 0
     vertices: []
     indices: 
@@ -146,9 +212,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Player_Idle_0: -467307283419413426
+      ColorTiles_0: 5970135517838781546
+      ColorTiles_1: 1908375546
+      ColorTiles_2: -355819193
+      ColorTiles_3: -1184732824
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
