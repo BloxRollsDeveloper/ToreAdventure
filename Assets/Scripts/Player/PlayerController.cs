@@ -28,6 +28,13 @@ public class PlayerController : MonoBehaviour
             _rigidbody2D.linearVelocityY = jumpSpeed;
         }
     }
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.transform.CompareTag("Death"))
+        {
+            Destroy(gameObject);
+        }
+    }
 
     private void OnDrawGizmos()
     {
