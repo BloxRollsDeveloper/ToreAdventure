@@ -222,6 +222,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 741420929410208102, guid: 43c5d91154ed0c55cbdf5884810d7ab8, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 2847266352566973674, guid: 43c5d91154ed0c55cbdf5884810d7ab8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.31
@@ -514,7 +518,7 @@ GameObject:
   - component: {fileID: 649519509}
   m_Layer: 0
   m_Name: Spike Container 1
-  m_TagString: Untagged
+  m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
